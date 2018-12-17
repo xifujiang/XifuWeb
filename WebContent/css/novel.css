@@ -1,0 +1,304 @@
+#novel_center {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#novel_center .c_top{
+	width: 100%;
+	height: 50px;
+	/*display:block;*/
+	/*background-color: #2abf8a;*/
+	background:#AB82FF;
+}
+
+#novel_center .c_top .top_list{
+	width: 33%;
+	float:left;
+}
+
+#novel_center .c_top .top_list a{
+	width: 25%;
+	float:left;
+	text-align: center;
+   	line-height: 50px;/*垂直居中*/
+	color: white;
+	font-size: 17px;
+}
+#novel_center .c_top .novel_search{
+	width: 20%;
+	display: block;
+	border-radius: 16px;
+	transition: border-color .2s;
+	border: 1px solid #ccd0d7;
+	float: right;
+	margin-top: 10px;
+}
+
+#novel_center .c_top .t_input {
+	width: 80%;
+	height: 30px;
+	padding: 14px;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+
+#novel_center .c_top .t_button {
+	background: url(../img/icons.png) -786px -721px;
+	height: 30px;
+	width: 18%;
+}
+
+#novel_center .c_topic{
+	width: 100%;
+	height: 50px;
+	/*background: #189476;/*不能删*/
+	background-color: #8968CD;
+}
+#novel_center .c_topic a{
+	width: 20%;
+	color: white;
+	font-size: 18px;
+	float: left;
+	text-align: center;
+ 	line-height: 50px;/*垂直居中*/
+}
+
+#novel_center .top_content{
+	width: 100%;
+	height: 400px;
+	display: block;
+	margin-top: 10px;
+}
+
+#novel_center .top_content .ancient_rank{
+	width: 25%;
+	height: 400px;
+	float: left;
+	padding: 10px;
+}
+
+#novel_center .top_content .ancient_rank .t_l_box{
+	width: 98%;
+	height: 100%;
+	border: 1px solid #dddee1;
+    border-color: #e9eaec;
+    margin: 0 auto;
+}
+
+#novel_center .type{/*小说类型*/
+    height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+#novel_center .card-item{
+	padding: 5px 0px;
+    overflow: hidden;
+}
+
+#novel_center .digital_rank{
+	width: 75%;
+	height: 21px;
+	float: left;
+	font-size:14px:
+	text-align: center;
+}
+
+#novel_center .novel_name{
+	font-size: 14px;
+	color: #000000;
+}
+
+#novel_center .author_name{
+	width: 25%;
+	font-size: 14px;
+	color: #000000;
+}
+
+#novel_center .more{
+	float: right;	
+	font-size: 13px;
+	color: #DDA0DD;
+	padding-right: 5px;
+}
+
+#novel_center .top_content .t_centent {
+	width: 45%;
+	height: 400px;
+	float: left;
+}
+#novel_center .top_content .t_centent .t_c_box{
+	width: 100%;
+	height: 160px;
+}
+
+#novel_center .top_content .t_centent .t_c_box .t_new_img{
+	width: 100%;
+	height: 160px;
+	z-index:9;
+}
+#novel_center .top_content .t_centent .t_c_box .t_new_img img {
+	float:left;
+	width:98%;
+	height:150px;
+	padding: 5px;
+}
+
+#novel_center .top_content .t_centent .t_c_box .play {
+	animation:ma 5s ease-out infinite alternate;
+}
+
+@keyframes ma {
+	0%,25% {
+	margin-left:0px;
+}
+30%,50% {
+	margin-left:-300px;
+}
+55%,75% {
+	margin-left:-600px;
+}
+80%,100% {
+	margin-left:-900px;
+}
+}
+
+#novel_center .top_content .t_centent .t_hot_novel{
+	width: 100%;
+	height: 240px;
+}
+
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box{
+	width: 98%;
+	height: 98%;
+	margin: 0 auto;
+	border: 1px solid #dddee1;
+    border-color: #e9eaec;
+}
+
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box .b_top_box {
+	width: 100%;
+	height: 15%;
+}
+
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box .b_top_box .type{
+	float: left;
+	height: 100%;
+}
+
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box .ul_list{
+	height: 85%;
+	width: 100%;
+}
+
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box .ul_list ul li{
+	margin: 100%;
+	height: 15%;
+	margin-bottom: 2%;
+	background: #003399;
+}
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box .ul_list ul li .novel_name{
+	margin: 30%;
+	height: 100%;
+}
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box .ul_list ul li .author_name{
+	margin: 20%;
+	height: 100%;
+}
+#novel_center .top_content .t_centent .t_hot_novel .t_h_b_box .ul_list ul li span{
+	margin: 50%;
+	height: 100%;
+	float: right;
+	color: #00A7DE;
+}
+
+#novel_center .top_content .morden_rank{
+	width: 30%;
+	height: 400px;	float: left;
+}
+
+
+#novel_center .top_content .morden_rank .t_r_box{
+	width: 98%;
+	height: 100%;
+	border: 1px solid #dddee1;
+    border-color: #e9eaec;
+    margin: 0 auto;
+}
+#novel_center .center_content{
+	width: 100%;
+	height: 170px;
+	background: #CD5C5C;
+}
+#novel_center .button_content{
+	width: 100%;
+	height: 400px;
+	margin-top: 10px;
+}
+#novel_center .button_content .b_new_book{
+	width: 22%;
+	height: 400px;
+	/*background: indigo;*/
+	float: left;
+	margin-right: 1%;
+}
+#novel_center .button_content .b_new_book .b_n_box{
+	width: 98%;
+	height: 100%;
+	border: 1px solid #dddee1;
+    border-color: #e9eaec;
+    margin: 0 auto;
+}
+
+
+#novel_center .button_content .b_recommend{
+	width: 77%;
+	height: 400px;
+	float: left;
+}
+#novel_center .button_content .b_recommend .b_re_left{
+	width: 33.3%;
+	height: 400px;
+	/*background: #0381AA;*/
+	float: left;
+}
+
+#novel_center .button_content .b_recommend .b_re_left .bre_l_box{
+	width: 98%;
+	height: 100%;
+	border: 1px solid #dddee1;
+    border-color: #e9eaec;
+    margin: 0 auto;
+}
+
+#novel_center .button_content .b_recommend .b_re_center{
+	width: 33.3%;
+	height: 400px;
+	/*background: chartreuse;*/
+	float: left;
+}
+
+#novel_center .button_content .b_recommend .b_re_center .bre_c_box{
+	width: 98%;
+	height: 100%;
+	border: 1px solid #dddee1;
+    border-color: #e9eaec;
+    margin: 0 auto;
+}
+#novel_center .button_content .b_recommend .b_re_right{
+	width: 33.3%;
+	height: 400px;
+	/*background: chocolate;*/
+	float: left;
+}
+
+#novel_center .button_content .b_recommend .b_re_right .bre.r_box{
+	width: 98%;
+	height: 100%;
+	border: 1px solid #dddee1;
+    border-color: #e9eaec;
+    margin: 0 auto;
+}

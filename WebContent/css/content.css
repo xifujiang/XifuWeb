@@ -1,0 +1,148 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    /*height: 900px;*/
+    background: #EEC591;
+}
+#header {
+    width: 100%;
+    height: 50px;
+    background: #ede3c7;
+}
+#header .head_cen{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+#header .head_cen .h_left{
+    float: left;
+    height:50px;
+    width: 170px;
+}
+
+#header .head_cen .h_search{
+    float: right;
+    height: 50px;
+    margin-right: 30px;
+    line-height: 50px;
+}
+#header .head_cen .h_search .t_input{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 0.05rem solid #333;
+    background-color: inherit;
+    color: #333;
+}
+#header .head_cen .h_search .t_button{
+    border: none;
+    background: none;
+}
+#header .head_cen .h_right{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+
+#center{
+    width: 100%;
+}
+
+#center .c_left_top{
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    padding: 20px 60px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border: 0.05rem solid #eee;
+    border-bottom: none;
+    z-index: 97;
+    background-color: #f6eccb;
+}
+#center .c_left_top .chapter_title{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#center .c_left_top .novel_name{
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    float: left;
+    margin-right: 10px;
+}
+#center .c_left_top .novel_author{
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    float: left;
+}
+
+#center .c_right {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(420px);
+    z-index: 100;
+}
+
+#center .c_right a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    border: 0.05rem solid #ccc;
+    color: #333;
+}
+#center .out_actitle .content{
+    width: 650px;
+    height: 800px;
+    /*padding: 100px 60px 60px 60px;*/
+    color: rgb(73, 80, 96);
+}
+
+#center .out_actitle{
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    min-height: 100%;
+    margin-top: 40px;
+    border: 0.05rem solid #eee;
+    background-color: #f6eccb;
+    width: 650px;
+    height: 800px;
+    overflow: hidden;
+}
+#center .in_actitle{
+    position: absolute;
+    left: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* for Chrome */
+#center .in_actitle::-webkit-scrollbar {
+    display: none;
+}
+
+
+#center .content p{
+    /*font-size: 14px;	*/
+    font-family: 微软雅黑;
+    line-height: 1.5;
+    margin: 15px 0px;
+    text-indent: 2em;
+    min-height: 15px;
+    white-space: normal;
+    word-break: break-all;
+}

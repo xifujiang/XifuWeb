@@ -1,0 +1,104 @@
+body{
+	width:100%;
+}
+
+#header{
+	height: 240px;
+}
+
+#header .h_top{
+	background-image: url(../img/bk1.jpg);
+	height: 170px;
+	margin: 0 auto;
+	/*background: #808080;*/
+}
+#header .h_top .low{
+	width: 80%;
+	margin: 0 auto;
+	height: 40px;
+	
+}
+
+#header .h_top .low .list{
+	height:40px;
+	float:left;
+	line-height: 40px;/*垂直居中*/
+}
+
+#header .h_top .low .list a{
+	color: #000000;	
+	margin: 0 10px;
+	font-size: 13px;
+}
+
+#header .h_top .low .login{
+	height:40px;
+	float:right;
+	line-height: 40px;/*垂直居中*/
+}
+
+#header .h_center{
+	height:60px;
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+}
+#header .h_center .word{
+	float: left;
+	height:60px;
+	width: 190px;
+	margin-right: 20px;
+}
+
+#header .h_center .search{
+	float: left;
+	height:60px;
+	width: 560px;
+}
+
+
+#header .h_center .search form {
+	width: 560px;
+	height: 40px;
+}
+
+#header .h_center .search form .t_input{
+	width: 500px;
+	height: 40px;
+	border: 2px solid plum;
+	padding: 10px;
+	float: left;
+}
+
+#header .h_center .search form .t_button{
+	width:60px;
+	height: 40px;
+	float:left;
+	background: plum;
+	border: none;
+}
+
+#header .h_center .search .hot{
+	width:560px;
+	height: 20px;
+	float: left;
+}
+
+#header .h_center .search p{
+	color: burlywood;
+	font-size: 13px;
+	float:left;
+	margin-top: 5px;
+	margin-right: 10px;
+
+}
+
+#header .h_center .search a{
+	float: left;
+	font-size: 13px;
+	color: cornflowerblue;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
